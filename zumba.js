@@ -22,28 +22,52 @@ function draw() {
 //ELLIPSERNE
 // SPILLER 1
 // orange  LEFT_ARROW
+fill(250,0,0);
+textSize(20);
+  text("venstre pil",200,300);
   fill(250,150,0);
   ellipse(250,200,150,150);
 // lyse grøn RIGHT_ARROW
+fill(250,0,0);
+textSize(20);
+  text("højre pil",450,300);
   fill(0,400,0);
   ellipse(500,200,150,150);
 // blå DOWN_ARROW
+fill(250,0,0);
+textSize(20);
+  text("nedad pil",200,400);
   fill(0,200,500);
   ellipse(250,500,150,150);
 // Lila UP_ARROW
+fill(250,0,0);
+textSize(20);
+  text("opad pil",450,400);
   fill(250,00,250);
   ellipse(500,500,150,150);
 // SPILLER 2
 // Rød
+fill(250,0,0);
+textSize(20);
+  text("a knap",950,300);
 fill(250,00,0);
 ellipse(1000,200,150,150);
 // Gul
+fill(250,0,0);
+textSize(20);
+  text("w knap",1250,300);
 fill(255,250,0);
 ellipse(1300,200,150,150);
 // pink
+fill(250,0,0);
+textSize(20);
+  text("s knap",950,400);
 fill(230,190,225);
 ellipse(1000,500,150,150);
 // Turkis
+fill(250,0,0);
+textSize(20);
+  text("d knap",1250,400);
 fill(34,152,156);
 ellipse(1300,500,150,150);
 
@@ -69,6 +93,7 @@ print_point2(point2);
 print_tal2(tnr2);
 }
 // function draw ends
+
 // Printe SPørgsmål og POINT
       // Function print spørgsmål Spiller 1
 function print_tal(tnr) {
@@ -80,7 +105,7 @@ function print_tal(tnr) {
 function print_tal2(tnr2){
   fill(29);
   textSize(40);
-  text(tal2[tnr2],600,350);
+  text(tal2[tnr2],1000,350);
 }
 
     // Function Point Spiller 1
@@ -93,7 +118,7 @@ function print_point(point) {
 function print_point2(point2) {
   fill(0);
   textSize(32);
-  text(point2, 1000, 350);
+  text(point2, 1150, 350);
 }
     //
 // Færdig med at printe spørgsmål og point
